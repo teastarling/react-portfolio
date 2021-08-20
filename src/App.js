@@ -3,12 +3,11 @@ import './App.css';
 export default function App() {
   return (
   <main>
-    <Navbar />
+    {/* <Navbar />
     <About />
     <Projects />
-    <Contact />
+    <Contact /> */}
+    <h1>Hello</h1>
   </main>  
   );
 }
-
-export default App;
