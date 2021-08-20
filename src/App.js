@@ -1,13 +1,7 @@
-import './App.css';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-export default function App() {
-  return (
-  <main>
-    {/* <Navbar />
-    <About />
-    <Projects />
-    <Contact /> */}
-    <h1>Hello</h1>
-  </main>  
-  );
-}
+const App = () => <PortfolioContainer />;
+
+export default App;
+
