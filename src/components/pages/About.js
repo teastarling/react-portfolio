@@ -1,24 +1,10 @@
 import React from 'react';
 
-export default function Blog() {
+export default function About() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+    <div className="col pt-5">
+      <h1 className="head-text" id="aboutme">About Me</h1>
+        <p className="content-text">After spending the last 10 years in New York City working with everything from snow leopards to sea lions, this Georgia girl has come home to do what it takes to chase the dream of becoming a Software Developer. Having recently earned a certificate in Full-Stack Development from Georgia Tech University, I am keen to utilize freshly minted skills in Javascript, Node.js, CSS, and HTML5 along with many years of strong team-oriented and problem-solving skills to translate team, client, and company needs into actionable objectives. My aim is to find the simplest path to reach the highest user satisfaction possible for each project while meeting client requisites. I am eager to apply my skills to new challenges as a team member within a fast-paced environment in order to reach both personal and company-wide goals.</p>
     </div>
   );
 }

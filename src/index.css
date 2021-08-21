@@ -1,0 +1,39 @@
+
+/* text color for section titles*/
+.head-text {
+    color: #00A5A7;
+}
+/* font for links in nav and contact font */
+.nav-font {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3rem;
+}
+/* color for main text content */
+.content-text {
+    color: #31383f !important;
+}
+/* color for contact icons */
+.icon-color {
+    color: #00A5A7 !important;
+}
+/* background color for cards */
+.gray {
+    background-color: #31383f;
+    color: #00c0c4;
+}
+
+/* text styling for main header */
+#title-text {
+    font-family: 'Martel', serif;
+    font-size: 1.8rem;
+    color: #00c0c4;
+}
+/* background for footer with low opacity */
+#footer-background {
+    background-color: rgb(0, 192, 196, 0.1);
+}
+/* styling for main image */
+#round-img {
+    border-radius: 70%;
+    border: 6px solid rgb(0, 192, 196, 0.4);
+}
