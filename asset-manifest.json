@@ -1,20 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.bab0b925.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.68fa0aeb.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.68fa0aeb.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.a735fe58.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.2fd28c84.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.2fd28c84.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
-    "static/js/2.eab921b1.chunk.js": "/react-portfolio/static/js/2.eab921b1.chunk.js",
-    "static/js/2.eab921b1.chunk.js.map": "/react-portfolio/static/js/2.eab921b1.chunk.js.map",
+    "static/css/2.818011ed.chunk.css": "/react-portfolio/static/css/2.818011ed.chunk.css",
+    "static/js/2.37b48720.chunk.js": "/react-portfolio/static/js/2.37b48720.chunk.js",
+    "static/js/2.37b48720.chunk.js.map": "/react-portfolio/static/js/2.37b48720.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "static/css/main.bab0b925.chunk.css.map": "/react-portfolio/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.eab921b1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.eab921b1.chunk.js.LICENSE.txt"
+    "static/css/2.818011ed.chunk.css.map": "/react-portfolio/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.a735fe58.chunk.css.map": "/react-portfolio/static/css/main.a735fe58.chunk.css.map",
+    "static/js/2.37b48720.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.37b48720.chunk.js.LICENSE.txt",
+    "static/media/FidoFriendly.e8f8ce19.png": "/react-portfolio/static/media/FidoFriendly.e8f8ce19.png",
+    "static/media/ecommerce.458bbda4.png": "/react-portfolio/static/media/ecommerce.458bbda4.png",
+    "static/media/tylericon.0c930ac8.png": "/react-portfolio/static/media/tylericon.0c930ac8.png",
+    "static/media/weatherdash.314bd7c8.png": "/react-portfolio/static/media/weatherdash.314bd7c8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.872b2f22.js",
-    "static/js/2.eab921b1.chunk.js",
-    "static/css/main.bab0b925.chunk.css",
-    "static/js/main.68fa0aeb.chunk.js"
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.37b48720.chunk.js",
+    "static/css/main.a735fe58.chunk.css",
+    "static/js/main.2fd28c84.chunk.js"
   ]
 }
