@@ -1,4 +1,5 @@
 import React from 'react';
+import Pdf from '../img/TylerStarlingResume.pdf'
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
@@ -27,6 +28,13 @@ function NavTabs({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange('Contact')}
           className="nav-link px-sm-0 px-2">
           <span className="ms-1 d-none d-sm-inline text-decoration-none content-text nav-font">Contact</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href={Pdf} without rel="noopener noreferrer" target="_blank"
+          className="nav-link px-sm-0 px-2">
+          <span className="ms-1 d-none d-sm-inline text-decoration-none content-text nav-font">Resume</span>
         </a>
       </li>
     </ul>
