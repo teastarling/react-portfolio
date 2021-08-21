@@ -1,4 +1,7 @@
-
+footer {
+    float: none;
+    text-align: center;
+}
 /* text color for section titles*/
 .head-text {
     color: #00A5A7;

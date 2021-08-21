@@ -4,6 +4,10 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import imageOfMe from "../img/tylericon.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -28,12 +32,20 @@ export default function PortfolioContainer() {
             <img src={imageOfMe} className="img-fluid align-items-center" alt="Image of me" id="round-img"/>
             <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
           </div>
-       </div>
-      <div className="col d-flex flex-column h-sm-100 justify-content-center align-items-center" id="main-background">
+      </div>
+      <div className="col d-flex flex-column justify-content-center align-self-center" id="main-background">
         <main className="row overflow-auto">
           {renderPage()}
         </main>
       </div>
+      <footer className="pt-3 mt-auto" id="footer-background">
+          <a href="https://github.com/teastarling">
+            <FontAwesomeIcon icon={faGithub} className="fa-2x icon-color m-2"/></a>
+          <a href="https://www.linkedin.com/in/tyler-starling-6790bb66/">
+            <FontAwesomeIcon icon={faLinkedinIn} className="fa-2x icon-color m-2"/></a>
+          <a href="mailto: tyler.a.starling@gmail.com">
+            <FontAwesomeIcon icon={faEnvelope} className="fa-2x icon-color m-2"/></a>
+      </footer>
     </div>
   );
 }

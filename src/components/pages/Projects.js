@@ -3,6 +3,9 @@ import Card from "react-bootstrap/Card"
 import fidoFriendly from "../../img/FidoFriendly.png"
 import eCommerce from "../../img/ecommerce.png"
 import weatherDash from "../../img/weatherdash.png"
+import employeeTrack from "../../img/employeetracker.png"
+import teamProfile from "../../img/teamprofile.png"
+import workSched from "../../img/workdaysched.png"
 
 export default function Projects() {
   return (
@@ -36,6 +39,34 @@ export default function Projects() {
                 </Card.Text>
                   <a href="https://github.com/teastarling/weather-dashboard" className="btn btn-secondary btn-sm m-1">Repo</a>
                   <a href="https://teastarling.github.io/weather-dashboard/" className="btn btn-secondary btn-sm">Deployed</a>
+            </Card.Body>
+          </Card>
+          <Card className="m-1" style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={employeeTrack} />
+            <Card.Body className="gray">
+              <Card.Title>Employee Tracker</Card.Title>
+                <Card.Text className="text-white">Application utilizing MySQL database calls, Node.js interactions, and the inquirer.js library in order to view and change employee database information from the terminal.
+                </Card.Text>
+                  <a href="https://github.com/teastarling/employee_tracker" className="btn btn-secondary btn-sm m-1">Repo</a>
+            </Card.Body>
+          </Card>
+          <Card className="m-1" style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={teamProfile} />
+            <Card.Body className="gray">
+              <Card.Title>Team Profile Generator</Card.Title>
+                <Card.Text className="text-white">Application allows the user to answer questions with the Inquirer package in the command line and generates a styled HTML page according to user input.
+                </Card.Text>
+                  <a href="https://github.com/teastarling/team-profile-generator" className="btn btn-secondary btn-sm m-1">Repo</a>
+            </Card.Body>
+          </Card>
+          <Card className="m-1" style={{ width: '18rem' }}>
+          <Card.Img variant="top" src={workSched} />
+            <Card.Body className="gray">
+              <Card.Title>Work Day Scheduler</Card.Title>
+                <Card.Text className="text-white">Application utilizes JQuery, Moment.js, and Bootstrap to allow users to input scheduled events into 9am-5pm blocks corresponding with current time and saves events to local storage for retrieval.
+                </Card.Text>
+                  <a href="hhttps://github.com/teastarling/day_planner" className="btn btn-secondary btn-sm m-1">Repo</a>
+                  <a href="https://teastarling.github.io/day_planner/" className="btn btn-secondary btn-sm">Deployed</a>
             </Card.Body>
           </Card>
           </div>
